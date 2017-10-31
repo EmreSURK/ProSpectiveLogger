@@ -25,7 +25,7 @@ proSpectiveLogger.logToUser( userID, stringOrObectToLog );
 proSpectiveLogger.logToAllUsers( stringOrObectToLog );
 ```
 
-For exaple;
+For example;
 
 ```
 var proSpectiveLogger = require("prospectivelogger");
