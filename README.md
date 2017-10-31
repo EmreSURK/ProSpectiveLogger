@@ -1,7 +1,10 @@
 # ProSpectiveLogger
-A logger for NodeJS that splits logs per user and date. It is super-easy to see what is going on 
+A logger for NodeJS that splits logs per user and date. It is super-easy to see what is going on.
+
 Automatically splits logs into folders according to date.
+
 Also automatically creates logs that splitted per user.
+
 Also automatically creates a combined logs file that is not splitted into users or dates. It includes all logs.
 
 A little hard to understand but super-easy to use.
