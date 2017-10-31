@@ -9,19 +9,20 @@ Also automatically creates a combined logs file that is not splitted into users 
 
 A little hard to understand but super-easy to use.
 
+Just give path for logs, it will create all subfolders and files.
+
 ```
 npm install --save prospectivelogger
 ```
 
 ```
+var proSpectiveLogger = require("prospectivelogger").logger(__dirname + "/systemLogsFolder");
+
 /**
 * Logs to user
 */
 proSpectiveLogger.logToUser( userID, stringOrObejcToLog );
-```
 
-
-```
 /**
 * You can also log for all users with a line of code.
 */
